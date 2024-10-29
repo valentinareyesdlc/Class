@@ -1,0 +1,75 @@
+@charset "UTF-8";
+	
+	h2{
+		font-family: "Signika Negative", sans-serif;
+		color: darkolivegreen;
+		font-size: 20px;
+	}
+	
+	
+	
+	h1{
+    font-family: "Signika Negative", sans-serif;
+    color: darkolivegreen;
+    font-size: 60px;
+    text-align: center;
+    padding-top: 0px;
+	}
+	
+	li{
+    width: 10%;
+    box-sizing: border-box;
+    display: inline-block;
+    padding: 15px;
+    background-color: darkolivegreen;
+    color: cornsilk;
+    font-family: "Signika Negative", serif;
+    text-align: center;
+    margin-right: -4px;
+	}
+	
+	ul{
+		margin:0;
+		padding:0;
+		background-color: darkolivegreen;
+	}
+	
+	footer{
+    font-family: "Signika Negative", serif;
+    color: #FFF9DF;
+    font-size: 12px;
+    background-color: #5F7636;
+    text-align: justify;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    padding-top: 18px;
+    padding-right: 18px;
+    padding-bottom: 18px;
+    padding-left: 18px;
+	}
+	
+	body{
+    font-family: "helvetica", sans-serif;
+    color: darkolivegreen;
+    font-size: 12px;
+    background-color: cornsilk;
+	background-image:url("background.png");
+	background-size: 15%;
+    margin: 0;
+    height: 1081px;
+	}
+
+	wrapper{
+    width: 900px;
+    display: block;
+    margin: auto;
+    padding: 5px;
+    height: 1180px;
+	background-color:cornsilk;
+	}
+main {
+    height: 1081px;
+    width: 900px;
+}
