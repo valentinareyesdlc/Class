@@ -1,0 +1,216 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Drag and Drop | Valentina Reyes</title>
+<script>
+function allowDrop(ev) {
+  ev.preventDefault();
+}
+
+function drag(ev) {
+  ev.dataTransfer.setData("text", ev.target.id);
+}
+
+function drop(ev) {
+  ev.preventDefault();
+  var data = ev.dataTransfer.getData("text");
+  ev.target.appendChild(document.getElementById(data));
+}
+</script>
+<style type="text/css">
+body {
+    margin: 0;
+    background-image: url("Background.png");
+    background-size: cover;
+}
+	
+wrapper {
+    margin: auto;
+    width: 560px;
+    padding: 10px;
+    display: block;
+    background-color: lightgrey;
+    height: 880px;
+    text-align: center;
+}
+.Placement div {
+    width: 90px;
+    height: 90px;
+    background-color: whitesmoke;
+    display: inline-block;
+    vertical-align: top;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    text-align: center;
+    border: thin solid black;
+    margin-right: -4px;
+}
+.Pieces {
+    display: block;
+    width: 360px;
+    margin: 20px auto;
+}
+.Pieces img {
+    width: 30px;
+    height: 30px;
+}
+.Placement {
+    width: 540px;
+    margin: auto;
+    height: 720px;
+}
+.Pieces div {
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    margin-right: -4px;
+}
+header {
+    height: 85px;
+    text-align: center;
+    font-family: ;
+    font-size: 85px;
+    padding-top: 5px;
+    font-family: "Gotham", sans-serif;
+    font-weight: bold;
+    padding-bottom: 10px;
+    text-shadow: -3px 1px rgba(113,147,143,1.00);
+}
+footer {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: "Gotham", sans-serif;
+    font-size: 12px;
+    text-align: justify;
+    margin: auto;
+    width: 580px;
+    font-weight: lighter;
+    background-color: rgba(255,255,255,0.75);
+}
+.intro {
+    background-color: rgba(255,255,255,0.75);
+    height: auto;
+    width: 580px;
+    margin: auto;
+    text-align: center;
+	font-family: "Gotham", sans-serif;
+    font-size: 14px;
+	font-weight: lighter;
+	padding-top: 10px;
+    padding-bottom: 10px;
+}
+</style>
+</head>
+
+<header>PUZZLED</header>
+
+<body>
+<div class="intro">Ready to piece it all together? Dive into this puzzle and unlock a cool Billie Eilish moment. Get your puzzle-solving skills in gear and let's see if you can complete the picture!</div>
+<wrapper>
+  <section class="Placement">
+    <div id="drop01" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+    <div id="drop02" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+    <div id="drop03" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+    <div id="drop04" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+    <div id="drop05" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+    <div id="drop06" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+	<div id="drop07" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+    <div id="drop08" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+    <div id="drop09" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+    <div id="drop10" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+    <div id="drop11" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+    <div id="drop12" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+	<div id="drop13" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+    <div id="drop14" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+    <div id="drop15" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+    <div id="drop16" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+    <div id="drop17" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+    <div id="drop18" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+	<div id="drop19" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+    <div id="drop20" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+    <div id="drop21" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+    <div id="drop22" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+    <div id="drop23" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+    <div id="drop24" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+	<div id="drop25" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+    <div id="drop26" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+    <div id="drop27" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+    <div id="drop28" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+    <div id="drop29" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+    <div id="drop30" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+	<div id="drop31" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+    <div id="drop32" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+    <div id="drop33" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+    <div id="drop34" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+    <div id="drop35" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+    <div id="drop36" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+	<div id="drop37" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+    <div id="drop38" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+    <div id="drop39" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+    <div id="drop40" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+    <div id="drop41" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+    <div id="drop42" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+	<div id="drop43" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+    <div id="drop44" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+    <div id="drop45" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+    <div id="drop46" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+    <div id="drop47" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+    <div id="drop48" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+  </section>
+	
+  <section class="Pieces">
+     <div id="drop49" ondrop="drop(event)" ondragover="allowDrop(event)"><img src="Billie-39.png" alt="" width="90" height="90"  draggable="true" ondragstart="drag(event)" id="Billie-39"></div>
+     <div id="drop50" ondrop="drop(event)" ondragover="allowDrop(event)"><img src="Billie-13.png" alt="" width="90" height="90"  draggable="true" ondragstart="drag(event)" id="Billie-13"></div>
+     <div id="drop51" ondrop="drop(event)" ondragover="allowDrop(event)"><img src="Billie-38.png" alt="" width="90" height="90"  draggable="true" ondragstart="drag(event)" id="Billie-38"></div>
+     <div id="drop52" ondrop="drop(event)" ondragover="allowDrop(event)"><img src="Billie-28.png" alt="" width="90" height="90"  draggable="true" ondragstart="drag(event)" id="Billie-28"></div>
+     <div id="drop53" ondrop="drop(event)" ondragover="allowDrop(event)"><img src="Billie-21.png" alt="" width="90" height="90"  draggable="true" ondragstart="drag(event)" id="Billie-21"></div>
+     <div id="drop54" ondrop="drop(event)" ondragover="allowDrop(event)"><img src="Billie-18.png" alt="" width="90" height="90"  draggable="true" ondragstart="drag(event)" id="Billie-18"></div>
+     <div id="drop55" ondrop="drop(event)" ondragover="allowDrop(event)"><img src="Billie-22.png" alt="" width="90" height="90"  draggable="true" ondragstart="drag(event)" id="Billie-22"></div>
+     <div id="drop56" ondrop="drop(event)" ondragover="allowDrop(event)"><img src="Billie-01.png" alt="" width="90" height="90"  draggable="true" ondragstart="drag(event)" id="Billie-01"></div>
+     <div id="drop57" ondrop="drop(event)" ondragover="allowDrop(event)"><img src="Billie-24.png" alt="" width="90" height="90"  draggable="true" ondragstart="drag(event)" id="Billie-24"></div>
+     <div id="drop58" ondrop="drop(event)" ondragover="allowDrop(event)"><img src="Billie-09.png" alt="" width="90" height="90"  draggable="true" ondragstart="drag(event)" id="Billie-09"></div>
+     <div id="drop59" ondrop="drop(event)" ondragover="allowDrop(event)"><img src="Billie-31.png" alt="" width="90" height="90"  draggable="true" ondragstart="drag(event)" id="Billie-31"></div>
+     <div id="drop60" ondrop="drop(event)" ondragover="allowDrop(event)"><img src="Billie-29.png" alt="" width="90" height="90"  draggable="true" ondragstart="drag(event)" id="Billie-29"></div>
+     <div id="drop61" ondrop="drop(event)" ondragover="allowDrop(event)"><img src="Billie-48.png" alt="" width="90" height="90"  draggable="true" ondragstart="drag(event)" id="Billie-48"></div>
+     <div id="drop62" ondrop="drop(event)" ondragover="allowDrop(event)"><img src="Billie-41.png" alt="" width="90" height="90"  draggable="true" ondragstart="drag(event)" id="Billie-41"></div>
+     <div id="drop63" ondrop="drop(event)" ondragover="allowDrop(event)"><img src="Billie-23.png" alt="" width="90" height="90"  draggable="true" ondragstart="drag(event)" id="Billie-23"></div>
+     <div id="drop64" ondrop="drop(event)" ondragover="allowDrop(event)"><img src="Billie-12.png" alt="" width="90" height="90"  draggable="true" ondragstart="drag(event)" id="Billie-12"></div>
+     <div id="drop65" ondrop="drop(event)" ondragover="allowDrop(event)"><img src="Billie-10.png" alt="" width="90" height="90"  draggable="true" ondragstart="drag(event)" id="Billie-10"></div>
+     <div id="drop66" ondrop="drop(event)" ondragover="allowDrop(event)"><img src="Billie-40.png" alt="" width="90" height="90"  draggable="true" ondragstart="drag(event)" id="Billie-40"></div>
+     <div id="drop67" ondrop="drop(event)" ondragover="allowDrop(event)"><img src="Billie-02.png" alt="" width="90" height="90"  draggable="true" ondragstart="drag(event)" id="Billie-02"></div>
+     <div id="drop68" ondrop="drop(event)" ondragover="allowDrop(event)"><img src="Billie-17.png" alt="" width="90" height="90"  draggable="true" ondragstart="drag(event)" id="Billie-17"></div>
+     <div id="drop69" ondrop="drop(event)" ondragover="allowDrop(event)"><img src="Billie-32.png" alt="" width="90" height="90"  draggable="true" ondragstart="drag(event)" id="Billie-32"></div>
+     <div id="drop70" ondrop="drop(event)" ondragover="allowDrop(event)"><img src="Billie-47.png" alt="" width="90" height="90"  draggable="true" ondragstart="drag(event)" id="Billie-47"></div>
+     <div id="drop71" ondrop="drop(event)" ondragover="allowDrop(event)"><img src="Billie-11.png" alt="" width="90" height="90"  draggable="true" ondragstart="drag(event)" id="Billie-11"></div>
+     <div id="drop72" ondrop="drop(event)" ondragover="allowDrop(event)"><img src="Billie-25.png" alt="" width="90" height="90"  draggable="true" ondragstart="drag(event)" id="Billie-25"></div>
+     <div id="drop73" ondrop="drop(event)" ondragover="allowDrop(event)"><img src="Billie-30.png" alt="" width="90" height="90"  draggable="true" ondragstart="drag(event)" id="Billie-30"></div>
+     <div id="drop74" ondrop="drop(event)" ondragover="allowDrop(event)"><img src="Billie-03.png" alt="" width="90" height="90"  draggable="true" ondragstart="drag(event)" id="Billie-03"></div>
+     <div id="drop75" ondrop="drop(event)" ondragover="allowDrop(event)"><img src="Billie-46.png" alt="" width="90" height="90"  draggable="true" ondragstart="drag(event)" id="Billie-46"></div>
+     <div id="drop76" ondrop="drop(event)" ondragover="allowDrop(event)"><img src="Billie-33.png" alt="" width="90" height="90"  draggable="true" ondragstart="drag(event)" id="Billie-33"></div>
+     <div id="drop77" ondrop="drop(event)" ondragover="allowDrop(event)"><img src="Billie-45.png" alt="" width="90" height="90"  draggable="true" ondragstart="drag(event)" id="Billie-45"></div>
+     <div id="drop78" ondrop="drop(event)" ondragover="allowDrop(event)"><img src="Billie-15.png" alt="" width="90" height="90"  draggable="true" ondragstart="drag(event)" id="Billie-15"></div>
+     <div id="drop79" ondrop="drop(event)" ondragover="allowDrop(event)"><img src="Billie-04.png" alt="" width="90" height="90"  draggable="true" ondragstart="drag(event)" id="Billie-04"></div>
+     <div id="drop80" ondrop="drop(event)" ondragover="allowDrop(event)"><img src="Billie-34.png" alt="" width="90" height="90"  draggable="true" ondragstart="drag(event)" id="Billie-34"></div>
+     <div id="drop81" ondrop="drop(event)" ondragover="allowDrop(event)"><img src="Billie-05.png" alt="" width="90" height="90"  draggable="true" ondragstart="drag(event)" id="Billie-05"></div>
+     <div id="drop82" ondrop="drop(event)" ondragover="allowDrop(event)"><img src="Billie-16.png" alt="" width="90" height="90"  draggable="true" ondragstart="drag(event)" id="Billie-16"></div>
+     <div id="drop83" ondrop="drop(event)" ondragover="allowDrop(event)"><img src="Billie-37.png" alt="" width="90" height="90"  draggable="true" ondragstart="drag(event)" id="Billie-37"></div>
+     <div id="drop84" ondrop="drop(event)" ondragover="allowDrop(event)"><img src="Billie-42.png" alt="" width="90" height="90"  draggable="true" ondragstart="drag(event)" id="Billie-42"></div>
+     <div id="drop85" ondrop="drop(event)" ondragover="allowDrop(event)"><img src="Billie-06.png" alt="" width="90" height="90"  draggable="true" ondragstart="drag(event)" id="Billie-06"></div>
+     <div id="drop86" ondrop="drop(event)" ondragover="allowDrop(event)"><img src="Billie-19.png" alt="" width="90" height="90"  draggable="true" ondragstart="drag(event)" id="Billie-19"></div>
+     <div id="drop87" ondrop="drop(event)" ondragover="allowDrop(event)"><img src="Billie-35.png" alt="" width="90" height="90"  draggable="true" ondragstart="drag(event)" id="Billie-35"></div>
+     <div id="drop88" ondrop="drop(event)" ondragover="allowDrop(event)"><img src="Billie-44.png" alt="" width="90" height="90"  draggable="true" ondragstart="drag(event)" id="Billie-44"></div>
+     <div id="drop89" ondrop="drop(event)" ondragover="allowDrop(event)"><img src="Billie-07.png" alt="" width="90" height="90"  draggable="true" ondragstart="drag(event)" id="Billie-07"></div>
+     <div id="drop90" ondrop="drop(event)" ondragover="allowDrop(event)"><img src="Billie-43.png" alt="" width="90" height="90"  draggable="true" ondragstart="drag(event)" id="Billie-43"></div>
+     <div id="drop91" ondrop="drop(event)" ondragover="allowDrop(event)"><img src="Billie-36.png" alt="" width="90" height="90"  draggable="true" ondragstart="drag(event)" id="Billie-36"></div>
+     <div id="drop92" ondrop="drop(event)" ondragover="allowDrop(event)"><img src="Billie-20.png" alt="" width="90" height="90"  draggable="true" ondragstart="drag(event)" id="Billie-20"></div>
+     <div id="drop93" ondrop="drop(event)" ondragover="allowDrop(event)"><img src="Billie-08.png" alt="" width="90" height="90"  draggable="true" ondragstart="drag(event)" id="Billie-08"></div>
+     <div id="drop94" ondrop="drop(event)" ondragover="allowDrop(event)"><img src="Billie-27.png" alt="" width="90" height="90"  draggable="true" ondragstart="drag(event)" id="Billie-27"></div>
+     <div id="drop95" ondrop="drop(event)" ondragover="allowDrop(event)"><img src="Billie-14.png" alt="" width="90" height="90"  draggable="true" ondragstart="drag(event)" id="Billie-14"></div>
+     <div id="drop96" ondrop="drop(event)" ondragover="allowDrop(event)"><img src="Billie-26.png" alt="" width="90" height="90"  draggable="true" ondragstart="drag(event)" id="Billie-26"></div>
+	</section>
+</wrapper>
+<footer>&copy;2025, Valentina Reyes. This is a fictitious web page created solely for the purpose of education and training. All products and people associated with this web page are also fictitious. Any resemblance to real brands, products, or people is purely coincidental. Information provided about the product is also fictitious and should not be construed to be representative of actual products on the market in a similar product category.</footer>
+</body>
+</html>
